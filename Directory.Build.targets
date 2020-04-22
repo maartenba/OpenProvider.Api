@@ -1,0 +1,31 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>8</LangVersion>
+        <Nullable>disable</Nullable>
+    
+        <!-- NuGet -->        
+        <PackageIconUrl>https://openprovider.com/wp-content/uploads/2018/10/cropped-openprovider-branding-copy-1.png</PackageIconUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/maartenba/OpenProvider.Api/</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/maartenba/OpenProvider.Api.git</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>OpenProvider Domain DNS API</PackageTags>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <FileVersion>0.0.1</FileVersion>
+        <Description>A .NET library to access OpenProvider API's. Generated from Swagger document at https://docs.openprovider.com/swagger.json.</Description>
+        <!--        <Authors>JetBrains</Authors>-->
+        <!--        <Company>JetBrains</Company>-->
+        <!--        <Copyright>JetBrains</Copyright>-->
+        <Authors>Maarten Balliauw</Authors>
+        <Company>Maarten Balliauw</Company>
+        <Copyright>Maarten Balliauw</Copyright>
+        
+        <!-- Symbols -->
+        <IncludeSymbols>True</IncludeSymbols>
+        <IncludeSource>True</IncludeSource>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
+        <Product>OpenProvider.Api</Product>
+    </PropertyGroup>
+</Project>
