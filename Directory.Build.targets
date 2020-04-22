@@ -10,8 +10,9 @@
         <RepositoryUrl>https://github.com/maartenba/OpenProvider.Api.git</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>OpenProvider Domain DNS API</PackageTags>
-        <AssemblyVersion>0.0.1</AssemblyVersion>
-        <FileVersion>0.0.1</FileVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Version>0.0.1</Version>
         <Description>A .NET library to access OpenProvider API's. Generated from Swagger document at https://docs.openprovider.com/swagger.json.</Description>
         <!--        <Authors>JetBrains</Authors>-->
         <!--        <Company>JetBrains</Company>-->
