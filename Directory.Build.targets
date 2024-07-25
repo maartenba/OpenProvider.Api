@@ -4,7 +4,6 @@
         <Nullable>disable</Nullable>
     
         <!-- NuGet -->        
-        <PackageIconUrl>https://openprovider.com/wp-content/uploads/2018/10/cropped-openprovider-branding-copy-1.png</PackageIconUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/maartenba/OpenProvider.Api/</PackageProjectUrl>
         <RepositoryUrl>https://github.com/maartenba/OpenProvider.Api.git</RepositoryUrl>
@@ -12,7 +11,7 @@
         <PackageTags>OpenProvider Domain DNS API</PackageTags>
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
-        <Version>0.0.2</Version>
+        <Version>0.0.3</Version>
         <Description>A .NET library to access OpenProvider API's. Generated from Swagger document at https://docs.openprovider.com/swagger.json.</Description>
         <!--        <Authors>JetBrains</Authors>-->
         <!--        <Company>JetBrains</Company>-->
