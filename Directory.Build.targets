@@ -1,6 +1,6 @@
 <Project>
     <PropertyGroup>
-        <LangVersion>8</LangVersion>
+        <LangVersion>latest</LangVersion>
         <Nullable>disable</Nullable>
     
         <!-- NuGet -->        
@@ -12,7 +12,7 @@
         <PackageTags>OpenProvider Domain DNS API</PackageTags>
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Description>A .NET library to access OpenProvider API's. Generated from Swagger document at https://docs.openprovider.com/swagger.json.</Description>
         <!--        <Authors>JetBrains</Authors>-->
         <!--        <Company>JetBrains</Company>-->

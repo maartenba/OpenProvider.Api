@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OpenProvider.Api
 {
-    public partial interface IApiClient
+    public partial interface IClient
     {
         /// <summary>Login with username and password, and store the authentication token for future requests with this client.</summary>
         /// <returns>A successful response.</returns>
@@ -26,11 +26,11 @@ namespace OpenProvider.Api
         void Logout();
     }
 
-    public partial class ApiClient
+    public partial class Client : IClient
     {
         private string _accessToken;
 
-        public ApiClient(HttpClient httpClient, string accessToken = null)
+        public Client(HttpClient httpClient, string accessToken = null)
             : this(httpClient)
         {
             _accessToken = accessToken;
